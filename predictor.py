@@ -5,11 +5,11 @@ Created on Fri Apr 23 10:01:59 2021
 @author: bjpsa
 """
 import tensorflow as tf
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import LSTM, Dropout, Dense, Embedding, Input, GRU
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.models import model_from_json
+from keras import Sequential
+from keras.layers import LSTM, Dropout, Dense, Embedding, Input, GRU
+from keras.callbacks import ModelCheckpoint, EarlyStopping
+from keras.optimizers import Adam
+from keras.models import model_from_json
 from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
